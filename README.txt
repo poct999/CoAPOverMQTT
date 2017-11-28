@@ -1,4 +1,4 @@
-# CoAPOverMQTT
+CoAPOverMQTT
 
 Usage: 
 
