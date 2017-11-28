@@ -21,12 +21,6 @@ var (
 	isServer   bool
 )
 
-/*
- * TODO list:
- * 1) keep alive
- * 2) mqtt configuration for keep alive
- */
-
 func parseArgs() error {
 	flag.StringVar(&mqttIP, "mqttIP", "127.0.0.1", "mqtt server ip")
 	flag.IntVar(&mqttPort, "mqttPort", 1883, "mqtt server port")
